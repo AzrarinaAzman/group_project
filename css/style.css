@@ -1,0 +1,165 @@
+h1
+    {
+        color:red;
+        font-size: 30pt;
+        font-family: 'Bungee Spice', sans-serif;
+    }
+
+.menu
+    {
+        background-color:red;
+        padding: 25px;
+        border-radius: 20px;
+        text-align:center;
+        font-style:inherit;
+        
+    }
+a
+    {
+        color:yellow;
+        text-decoration:none;
+        margin-right:20px;
+        font-family:'luckiest Guy', cursive;
+    }
+
+body 
+    {
+        font-family:inherit, sans-serif;
+        margin:auto;
+        padding: 0;
+        background-color:black;
+    }
+
+    /contact/ 
+ 
+.contact
+    {  
+    min-height: 100vh;  
+    background-color: #0c090a;  
+    padding: 50px;  
+    text-align: center;  
+    }  
+  
+.container
+    {  
+    max-width: 800px;  
+    margin: 0 auto;  
+    }  
+  
+.container h2
+    {  
+    font-size: 36px;  
+    margin-bottom: 40px;  
+    color: white;  
+    }  
+  
+.contact-wrapper
+    {  
+    display: grid;  
+    grid-template-columns: repeat(2, 1fr);  
+    grid-gap: 30px;  
+    }  
+  
+.contact-form
+    {  
+    text-align: left;  
+    }  
+  
+.contact-form h3
+    {  
+    font-size: 24px;  
+    margin-bottom: 20px;  
+    color: yellow;  
+    }  
+  
+.form-group
+    {  
+    margin-bottom: 20px;  
+    }  
+  
+input, textarea
+    {  
+    width: 100%;  
+    padding: 12px;  
+    border-radius: 8px;  
+    border: none;  
+    background-color: #f8f9fa;  
+    color: #333;  
+    }  
+  
+input:focus, textarea:focus
+    {  
+    outline: none;  
+    box-shadow: 0 0 8px #bbb;  
+    }  
+  
+button
+    {  
+    display: inline-block;  
+    padding: 15px 30px;  
+    background-color: orangered;  
+    color: #fff;  
+    border: 10px;  
+    cursor: pointer;  
+    transition: 0.3s ease;  
+    }  
+  
+button:hover
+    {  
+    background-color: #f70d1a;  
+    }  
+  
+.contact-info
+    {  
+    text-align: left;  
+    }  
+  
+.contact-info h3
+{  
+    font-size: 24px;  
+    margin-bottom: 20px;  
+    color: yellow;  
+}  
+  
+.contact-info p
+{  
+    margin-bottom: 10px;  
+    color: white;  
+}  
+  
+.contact-info i
+{  
+    color: red;  
+    margin-right: 10px;  
+}  
+  
+@media screen and (max-width: 768px)
+{  
+    .container
+    {  
+        padding: 20px;  
+    }  
+  
+    .contact-wrapper
+    {  
+           
+        grid-template-columns: 1fr;  
+           
+    }  
+}
+.text-box
+    {
+        color: white;
+    }
+h2
+    {
+        color:yellow;
+    }
+h4
+    {
+        color: white;
+    }
+.w3
+    {
+        color:whitesmoke
+    }
